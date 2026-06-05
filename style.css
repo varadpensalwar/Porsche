@@ -13,7 +13,7 @@
 
 body{
     overflow-x: hidden;
-    background: #000;
+    background: #d2d2d2;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -42,8 +42,8 @@ body{
     background:
         linear-gradient(
             to top,
-            rgba(0,0,0,0.45),
-            rgba(0,0,0,0.08)
+            rgba(0,0,0,0.35),
+            rgba(0,0,0,0.05)
         );
 
     z-index: 1;
@@ -65,8 +65,6 @@ body{
     justify-content: center;
     align-items: end;
 
-    padding-bottom: 60px;
-
     z-index: 2;
 }
 
@@ -81,7 +79,7 @@ body{
     width: 100%;
     height: 100%;
 
-    background-image: url("images/Porsche_911_GT3_RS_10.jpg");
+    background-image: url("images/Porsche_911_GT3_RS_12.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: contain;
@@ -101,7 +99,7 @@ body{
     width: 200px;
     height: 250px;
 
-    top: 12%;
+    top: 10%;
     left: calc(50% - 100px);
 
     transform-style: preserve-3d;
@@ -145,7 +143,7 @@ body{
 
     position: absolute;
 
-    bottom: 220px;
+    bottom: 190px;
     left: 50%;
 
     transform: translateX(-50%);
@@ -155,10 +153,10 @@ body{
     font-size: 14em;
     line-height: 1em;
 
-    color: rgba(255,255,255,0.9);
+    color: #25283B;
 
     text-shadow:
-        0 10px 30px rgba(0,0,0,0.45);
+        0 10px 20px rgba(0,0,0,0.25);
 
     z-index: 2;
 }
@@ -171,13 +169,13 @@ body{
 
     color: transparent;
 
-    -webkit-text-stroke: 2px rgba(255,255,255,0.95);
+    -webkit-text-stroke: 2px #d2d2d2;
 
     z-index: 2;
 }
 
 /* =========================
-   911 / GT3 RS
+   AUTHOR
 ========================= */
 
 .banner .content .author{
@@ -231,11 +229,9 @@ body{
     border: none;
     border-radius: 50%;
 
-    background: rgba(255,255,255,0.15);
+    background: rgba(37, 40, 59, 0.75);
 
     color: white;
-
-    backdrop-filter: blur(10px);
 
     font-size: 18px;
 
@@ -245,7 +241,7 @@ body{
 }
 
 .navigation button:hover{
-    background: rgba(255,255,255,0.3);
+    background: rgba(37, 40, 59, 1);
     transform: scale(1.1);
 }
 
@@ -270,7 +266,7 @@ body{
 
     .banner .content h1{
         font-size: 8em;
-        bottom: 200px;
+        bottom: 180px;
     }
 
     .banner .content .author h2{
@@ -288,7 +284,7 @@ body{
         height: 100svh;
     }
 
-    /* BACKGROUND IMAGE */
+    /* BACKGROUND */
     .banner .content .model{
         background-size: cover;
         background-position: center center;
@@ -301,7 +297,7 @@ body{
 
         left: calc(50% - 55px);
 
-        top: 2%;
+        top: 6%;
     }
 
     .banner .slider .item{
@@ -312,14 +308,19 @@ body{
 
     /* PORSCHE TEXT */
     .banner .content h1{
-        font-size: 4.5em;
+        font-size: 5em;
 
-        bottom: 170px;
+        bottom: 150px;
 
         width: 100%;
+
+        color: #25283B;
+
+        text-shadow:
+            0 5px 10px rgba(0,0,0,0.3);
     }
 
-    /* 911 TEXT */
+    /* AUTHOR */
     .banner .content .author{
         bottom: 70px;
     }
