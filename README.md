@@ -2,5 +2,5 @@
  
  Live Link - https://porsche-911-gt3-rs.vercel.app/
 
-<img width="421" height="800" alt="Pi7_GIF_CMP" src="https://github.com/user-attachments/assets/5b246df3-6622-4d9c-8da1-94d0cc9682a2" />
+<img width="417" height="705" alt="1" src="https://github.com/user-attachments/assets/d3dc63f1-a594-411b-bd07-bb9f48916926" />
 
